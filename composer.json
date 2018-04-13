@@ -1,0 +1,29 @@
+{
+    "name": "srnty/handler",
+    "description": "Request Handler implementation based on PSR-15",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Gerassimov",
+            "email": "gerasimov.v.s@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "psr/http-server-handler": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "@alpha"
+    },
+    "autoload": {
+        "psr-4": {
+            "Srnty\\Handler\\": "src/"
+        }
+    },
+    "keywords": [
+        "srnty",
+        "psr",
+        "psr-15",
+        "handler"
+    ]
+}
